@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar{
+    width: 180px;
+    height: 100%;
+    background-color: #BC62FE;
+    color: #00FFB2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebar-top,
+.sidebar-center,
+.sidebar-bottom{
+    width: 80%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #b123b1;
+}
